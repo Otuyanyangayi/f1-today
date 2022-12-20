@@ -1,0 +1,160 @@
+.home-span{
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+.home-h2{
+
+    padding-top: 210px;
+}
+.float-container {
+    display: flex;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 1px solid rgb(59, 57, 57);
+}
+.float-child1 {
+    width: 70vw;
+    float: left;
+    padding: 20px;
+    border: 1px solid rgb(59, 57, 57);
+}
+.we{
+    float: right;
+}
+a{
+    color: rgb(99, 35, 35);
+    text-decoration: solid;
+}
+h3{
+    color: rgb(99, 35, 35);
+}
+.parent{
+    display:flex;
+    justify-content: space-between;
+    padding-right: 5%;
+
+
+}
+.child{
+  width: 50%; /* adjust as needed */
+  padding: 20px;
+ justify-content: space-around;
+}
+
+
+
+.card {
+    display: block;
+    background-color: #ffffff;
+    font-family: sans-serif;
+  }
+
+  .card img {
+    width: 10%;
+    height: 10%;
+  }
+
+  .card h1 {
+    color: #000000;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .card .points {
+    color: #000000;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .card .description {
+    color: #777777;
+    font-size: 14px;
+    margin: 0;
+  }
+  .blueGray{
+    background-color: #7393B3;
+  }
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky {
+    padding: 15px 0;
+    background: black;
+}
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a {
+    color: rgb(15, 15, 15);
+    font-size: 35px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.navbar .logo a span {
+    color: black;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar.sticky .logo a span {
+    color: rgb(8, 8, 8);
+}
+.navbar.sticky .menu li a:hover {
+    color: #fff;
+}
+.navbar .menu li a {
+    display: block;
+    color: rgb(8, 8, 8);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.hide {
+    display: none;
+}
+.navbar .menu li a:hover {
+    color:black;
+}
+
+/* menu btn styling */
+.menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+}
+.scroll-up-btn {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show {
+    opacity: 1;
+    pointer-events: auto;
+}
